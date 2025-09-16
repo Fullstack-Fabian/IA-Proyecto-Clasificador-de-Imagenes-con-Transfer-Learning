@@ -1,43 +1,20 @@
-# Archivos y carpetas de Python
+# Python / ML
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.so
-*.egg-info/
-*.egg
 .venv/
-env/
 venv/
-
-# Archivos de Jupyter
-.ipynb_checkpoints
-
-# Datos y modelos pesados
-data/
-datasets/
+env/
+env*/
 *.h5
 *.hdf5
 *.ckpt
 *.pth
 *.pt
-*.joblib
-*.npz
-*.npy
+/data/
+data/
+archive.zip
 
-# Configuración del sistema
-.DS_Store
-Thumbs.db
-
-# Archivos de logs
-*.log
-
-# Archivos temporales
-*.swp
-*.tmp
-*.bak
-
-# Archivos ocultos de IDEs
+# IDEs
 .vscode/
 .idea/
-data/
+.DS_Store
